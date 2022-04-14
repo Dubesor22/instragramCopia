@@ -6,8 +6,8 @@
   --secundario: #0097a7;
   --gris: #b1b8b7;
   --prueba: rgba(255, 193, 7, 1);
-  --fondo: rgb(142, 158, 162);
-  --fuente-principal: 3.8rem;
+  --fondo: rgb(204, 215, 218);
+  --fuente-principal: 1.5rem;
 }
 
 /* globales */
@@ -16,6 +16,12 @@ html {
   /* Hack para los rems para que funcionen siempre como queremos*/
   box-sizing: border-box;
   /* hasta aqui */
+}
+body {
+  font-size: var(--fuente-principal);
+}
+a {
+  text-decoration: none;
 }
 
 .login {
@@ -26,16 +32,71 @@ html {
   width: 100%;
   height: 600px;
   background-color: var(--fondo);
+  margin-top: 2rem;
+}
+.moviles {
+  display: none;
+}
+@media (min-width: 768px) {
+  .moviles {
+    display: block;
+  }
 }
 .container__login {
-  width: 200px;
-  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 250px;
+  height: 500px;
   background-color: var(--primario);
   margin-bottom: 5px;
 }
 .form__login {
   background-color: var(--prueba);
+  width: 90%;
+}
+.container__boton {
+  width: 90%;
+  background-color: #212121;
+}
+.boton__acceder {
+  width: 90%;
+  background-color: #b83d3d;
 }
 .login__hijo {
   background-color: var(--secundario);
+}
+.registro {
+  background-color: var(--blanco);
+}
+.registro p {
+  text-align: center;
+}
+
+.link_google {
+  width: 100%;
+  display: flex;
+  align-items: space-between;
+}
+.link_google img {
+  width: 45%;
+  margin: 0.5rem;
+}
+
+.footer {
+  text-align: center;
+}
+.footer__otros {
+  word-spacing: 2rem;
+  line-height: 2rem;
+  margin: 2rem;
+}
+.footer__idiomas {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer__idiomas select {
+  border: none;
+  margin: 2rem;
 }
