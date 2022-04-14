@@ -1,0 +1,41 @@
+:root {
+  /*esto es como declarar una variable en CSS */
+  --blanco: #fff;
+  --oscuro: #212121;
+  --primario: #4daa93;
+  --secundario: #0097a7;
+  --gris: #b1b8b7;
+  --prueba: rgba(255, 193, 7, 1);
+  --fondo: rgb(142, 158, 162);
+  --fuente-principal: 3.8rem;
+}
+
+/* globales */
+html {
+  font-size: 62.5%;
+  /* Hack para los rems para que funcionen siempre como queremos*/
+  box-sizing: border-box;
+  /* hasta aqui */
+}
+
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 600px;
+  background-color: var(--fondo);
+}
+.container__login {
+  width: 200px;
+  height: 300px;
+  background-color: var(--primario);
+  margin-bottom: 5px;
+}
+.form__login {
+  background-color: var(--prueba);
+}
+.login__hijo {
+  background-color: var(--secundario);
+}
