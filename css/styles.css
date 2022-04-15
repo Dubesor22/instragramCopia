@@ -168,11 +168,11 @@ a {
 }
 /* clase fade para imagenes en carrusel */
 .fade-in {
-  animation: fadeIn ease 8s;
-  -webkit-animation: fadeIn ease 8s;
-  -moz-animation: fadeIn ease 8s;
-  -o-animation: fadeIn ease 8s;
-  -ms-animation: fadeIn ease 8s;
+  animation: fadeIn ease 12s;
+  -webkit-animation: fadeIn ease 12s;
+  -moz-animation: fadeIn ease 12s;
+  -o-animation: fadeIn ease 12s;
+  -ms-animation: fadeIn ease 12s;
 }
 @keyframes fadeIn {
   0% {
