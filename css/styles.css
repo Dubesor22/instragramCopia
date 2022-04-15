@@ -87,6 +87,7 @@ iframe {
   justify-content: center;
   width: 80%;
   margin-top: 1rem;
+  font-family: -apple-system, Roboto, "Helvetica Neue", sans-serif, arial;
 }
 .form__login input {
   margin: 0.5rem;
@@ -97,6 +98,7 @@ iframe {
   border-radius: 5px;
   border: 0;
   background-color: var(--fondo);
+  outline: 0;
 }
 .form__login input::placeholder {
   color: var(--fuente-suave);
@@ -152,6 +154,8 @@ iframe {
 }
 
 .footer {
+  font-family: roboto;
+  font-weight: 300;
   display: flex;
   flex-direction: column;
   align-items: center;
