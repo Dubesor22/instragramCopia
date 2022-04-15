@@ -107,8 +107,9 @@ a {
   border-radius: 2.5px;
 }
 .login__hijo {
-  background-color: var(--secundario);
+  text-align: center;
 }
+
 .registro {
   background-color: var(--blanco);
 }
@@ -130,6 +131,8 @@ a {
   text-align: center;
   font-size: 0.9em;
   color: var(--fuente-suave);
+  margin-left: 25rem;
+  margin-right: 25rem;
 }
 .footer__otros {
   word-spacing: 2rem;
