@@ -27,6 +27,10 @@ a {
   text-decoration: none;
   color: #0095f6;
 }
+iframe {
+  border: none;
+  color: blue;
+}
 
 .login {
   display: flex;
@@ -111,6 +115,7 @@ a {
   height: 3rem;
   border-radius: 5px;
 }
+
 .login__hijo {
   text-align: center;
 }
