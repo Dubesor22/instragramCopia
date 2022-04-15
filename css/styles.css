@@ -270,13 +270,16 @@ iframe {
 .nav-caja1 img {
   height: 50px;
   margin-top: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .form-busqueda {
   margin-bottom: 20px;
 }
 .busqueda {
   position: absolute;
-  left: 50%;
+  left: 40%;
   /* transform: translateX(-50%); */
   width: 20rem;
   height: 2.5rem;
@@ -287,8 +290,11 @@ iframe {
   outline: 0;
 }
 .nav-items {
-  position: relative;
-  height: 30px;
+  /* position: relative;
+  height: 30px; */
+}
+.nav-items svg {
+  margin-bottom: 12px;
 }
 .nav-iconos {
   height: 100%;
