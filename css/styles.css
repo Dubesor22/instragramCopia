@@ -25,6 +25,7 @@ body {
 }
 a {
   text-decoration: none;
+  color: #3b77d7;
 }
 
 .login {
@@ -66,10 +67,10 @@ a {
   width: 340px;
   height: 520px;
   background-color: var(--blanco);
-  padding-top: 4rem;
+  padding-top: 2rem;
   border: 1px solid var(--gris);
   border-radius: 3px;
-  margin-bottom: 30px;
+  margin-bottom: 25px;
 }
 .container__login img {
   width: 55%;
@@ -103,18 +104,30 @@ a {
   opacity: 1;
   color: var(--blanco);
   border: 0;
-  height: 2.5rem;
-  border-radius: 2.5px;
+  height: 3rem;
+  border-radius: 5px;
 }
 .login__hijo {
   text-align: center;
 }
-
+.login__hijo p {
+  color: var(--fuente-suave);
+}
+.login__fb {
+  color: #3b77d7;
+  font-size: 15px;
+  font-weight: bold;
+}
+.login__pass {
+  color: #3b77d7;
+  font-size: 12px;
+}
 .registro {
   background-color: var(--blanco);
 }
 .registro p {
   text-align: center;
+  font-size: 14px;
 }
 
 .link_google {
