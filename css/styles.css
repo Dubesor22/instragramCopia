@@ -25,7 +25,7 @@ body {
 }
 a {
   text-decoration: none;
-  color: #3b77d7;
+  color: #0095f6;
 }
 
 .login {
@@ -124,6 +124,7 @@ a {
 }
 .registro {
   background-color: var(--blanco);
+  color: #343434;
 }
 .registro p {
   text-align: center;
@@ -134,6 +135,7 @@ a {
   width: 100%;
   display: flex;
   align-items: space-between;
+  margin-left: 1.5rem;
 }
 .link_google img {
   width: 45%;
@@ -163,4 +165,71 @@ a {
   border: none;
   margin: 2rem;
   color: var(--fuente-suave);
+}
+/* clase fade para imagenes en carrusel */
+.fade-in {
+  animation: fadeIn ease 8s;
+  -webkit-animation: fadeIn ease 8s;
+  -moz-animation: fadeIn ease 8s;
+  -o-animation: fadeIn ease 8s;
+  -ms-animation: fadeIn ease 8s;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0.2;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0.2;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0.2;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0.2;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0.2;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }
