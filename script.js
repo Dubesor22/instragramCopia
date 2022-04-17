@@ -3,14 +3,14 @@ carousel();
 
 function carousel() {
   let i;
-  let x = document.getElementsByClassName("mySlides");
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";
+  let img = document.getElementsByClassName("mySlides");
+  for (i = 0; i < img.length; i++) {
+    img[i].style.display = "none";
   }
   myIndex++;
-  if (myIndex > x.length) {
+  if (myIndex > img.length) {
     myIndex = 1;
   }
-  x[myIndex - 1].style.display = "block";
+  img[myIndex - 1].style.display = "block";
   setTimeout(carousel, 10000);
 }
