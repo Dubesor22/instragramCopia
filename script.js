@@ -1,16 +1,17 @@
-let myIndex = 0;
-carousel();
+let indiceImg = 0;
+carrusel();
 
-function carousel() {
-  let i;
+function carrusel() {
+  //esto hace un display none de todas las imagenes
   let img = document.getElementsByClassName("mySlides");
-  for (i = 0; i < img.length; i++) {
+  for (let i = 0; i < img.length; i++) {
     img[i].style.display = "none";
   }
-  myIndex++;
-  if (myIndex > img.length) {
-    myIndex = 1;
+
+  indiceImg++;
+  if (indiceImg > img.length) {
+    indiceImg = 1;
   }
-  img[myIndex - 1].style.display = "block";
-  setTimeout(carousel, 10000);
+  img[indiceImg - 1].style.display = "block";
+  setTimeout(carrusel, 10000); //funcion recursiva (se llama a si mismo)
 }
