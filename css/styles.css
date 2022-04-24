@@ -523,7 +523,7 @@ iframe {
   opacity: 1;
   font-weight: 700;
   font-size: 12px;
-  border: none;
+  border: 1px solid var(--gris);
   background-color: (var(--blanco));
   cursor: pointer;
 }
